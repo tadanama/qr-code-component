@@ -35,7 +35,7 @@ h1 {
 
 p {
 	width: 250px;
-	margin-top: 1rem;
+	margin-block: 1rem;
 	margin-inline: auto;
 	font-size: 15px;
 	text-align: center;
@@ -43,7 +43,12 @@ p {
 
 @media screen and (max-width: 375px) {
 	.card {
-		width: max-content;
+		max-width: 330px;
 		margin-inline: 10px;
+	}
+
+	p {
+        width: 90%;
+		word-wrap: break-word;
 	}
 }
